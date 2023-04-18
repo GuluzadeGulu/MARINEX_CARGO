@@ -1,0 +1,34 @@
+// *** FONT FAMILY ***
+$font-family-Inter: 'Inter', sans-serif;
+$font-family-Montserrat: 'Montserrat', sans-serif;
+$font-family-Poppins: 'Poppins', sans-serif;
+$font-family-Prompt: 'Prompt', sans-serif;
+
+// *** COLOR ***
+$color-white: #FFFFFF;
+$color-blue: #254083;
+$color-yellow: #FFAB21;
+$color-grey: #404040;
+
+// *** FONT SIZE ***
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-17: 17px;
+$font-size-18: 18px;
+$font-size-35: 35px;
+
+// *** LINE HEIGHT ***
+$line-height-14: 14.63px;
+$line-height-17: 17.07px;
+$line-height-21: 21px;
+$line-height-24: 24px;
+$line-height-42: 42.67px;
+$line-height: 21px;
+
+// *** MIXIN ***
+@mixin sample ($fz, $fw, $lh) {
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+}
