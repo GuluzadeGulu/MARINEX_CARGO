@@ -9,6 +9,21 @@ body {
   font-family: "Poppins", sans-serif;
   color: #404040;
   line-height: 21px;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42.67px;
+  color: #254083;
+}
+
+h3 {
+  color: #254083;
+  font-size: 18px;
+  margin-bottom: 6px;
 }
 
 header {
@@ -42,7 +57,7 @@ header .header-top .sign-in {
 }
 
 .header-inner {
-  padding: 30px 0;
+  margin: 30px 0;
 }
 .header-inner nav {
   display: flex;
@@ -68,14 +83,12 @@ header .header-top .sign-in {
   overflow: hidden;
 }
 
-/*** Лента слайдов ***/
 .slick-track {
   text-align: center;
   display: flex;
   align-items: center;
 }
 
-/*** Конкретный слайдер ***/
 .slider .slick-dots {
   display: flex;
   justify-content: center;
@@ -98,6 +111,166 @@ header .header-top .sign-in {
 
 .slider .slick-dots li.slick-active button {
   width: 20px;
-  border-radius: 30%;
+  border-radius: 6px;
   background-color: #FFAB21;
+}
+
+.calculator {
+  margin: 50px 0;
+}
+.calculator .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calculator .container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42.67px;
+  color: #254083;
+}
+.calculator .container p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 0 50px;
+}
+.calculator .container form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 20px;
+}
+.calculator .container form select,
+.calculator .container form input {
+  max-width: 625px;
+  border: 1px solid #254083;
+  border-radius: 6px;
+  padding: 11px 0 12px 30px;
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+  line-height: 17.07px;
+}
+.calculator .container form button {
+  margin-top: 4px;
+  grid-column: 1/3;
+  background-color: #254083;
+  line-height: 24px;
+  padding: 8px;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.tariffs {
+  margin-bottom: 80px;
+}
+.tariffs h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.tariffs table {
+  width: 100%;
+  border-spacing: 0 16px;
+}
+.tariffs table td {
+  padding: 0px 35px 0px 35px;
+  text-align: center;
+}
+.tariffs table .second-tr, .tariffs table .third-tr {
+  box-shadow: 0px 1px 7px rgba(206, 222, 250, 0.5);
+  border-radius: 8px;
+  border-spacing: 10px 10px;
+}
+.tariffs table .second-tr td, .tariffs table .third-tr td {
+  padding: 21px 35px 22px 35px;
+}
+.tariffs table .second-tr .td-title, .tariffs table .third-tr .td-title {
+  font-weight: 500;
+  font-size: 17px;
+  color: #254083;
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+}
+
+.howDoWeWork {
+  margin-bottom: 80px;
+}
+.howDoWeWork h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.howDoWeWork .howDoWeWork__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.howDoWeWork .howDoWeWork__content .register,
+.howDoWeWork .howDoWeWork__content .makeOrder {
+  margin-right: 20px;
+}
+.howDoWeWork .howDoWeWork__content .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 7px rgba(206, 222, 250, 0.5);
+  border-radius: 8px;
+  padding: 38px 30px 37px;
+}
+.howDoWeWork .howDoWeWork__content .box img {
+  margin-right: 18px;
+}
+.howDoWeWork .howDoWeWork__content .box p {
+  font-size: 12px;
+}
+
+.getInstantUpdates {
+  margin-bottom: 95px;
+}
+.getInstantUpdates h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.getInstantUpdates .getInstantUpdates__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.getInstantUpdates .box {
+  box-shadow: 0px 1px 7px rgba(206, 222, 250, 0.5);
+  border-radius: 20px;
+}
+.getInstantUpdates .box h3 {
+  font-size: 16px;
+  padding: 0 20px;
+  margin: 30px 0 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.getInstantUpdates .box p {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.getInstantUpdates .box div {
+  padding: 0 20px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.getInstantUpdates .box div p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.getInstantUpdates .box div span {
+  color: #254083;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  line-height: 17.07px;
+}
+
+.second-slider {
+  padding-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
