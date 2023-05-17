@@ -6,7 +6,7 @@ $(document).ready(function(){
         infinity: true,
         autoplay: true,
         autoplaySpeed: 2000,
-        pauseOnFocus: true,
+        pauseOnHover: false,
     })
 })
 
@@ -19,6 +19,6 @@ $(document).ready(function(){
         infinity: true,
         autoplay: true,
         autoplaySpeed: 2000,
-        pauseOnFocus: true,
+        pauseOnHover: false,
     })
 })
